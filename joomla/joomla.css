@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Font bello";
+    src: url(./webfonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Font bello", Courier, monospace;
+}
+
+body {
+    background-image: url(./background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top-bar {
+    color: white;
+    padding: 12px;
+    display: flex;
+}
+
+.top-color {
+    background-color: black;
+}
+
+.top2-color {
+    background-color: #1B1B1B;
+}
+
+.top3-color {
+    background-color: grey;
+    
+}
+
+button.buttond, button.buttonl {
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    border: none;
+}
+
+button.buttonl {
+    background-color: lightskyblue;
+}
+
+.logo-left {
+    flex: 80%;
+    padding-left: 18px;
+}
+
+.button-right {
+    flex: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    text-align: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+section.main-content div.content-title {
+    font-size: 50px;
+}
+
+section.main-content div.content-paragraph {
+    font-size: 18px;
+    padding: 22px;
+}
+
+.box-container {
+    text-align: center;
+    max-width: 1100px;
+}
+
+.boxes {
+    background-color: gray;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+article.boxes i {
+    padding: 50px;
+}
+
+article.boxes div.boxes-paragraph {
+    padding: 20px;
+}
+
+article.boxes div.box-learn {
+    background-color: orange;
+}
+
+.box-launch, .box-learn, .box-download{
+    border-radius: 0 0 5px 5px;
+}
+
+article.boxes div.box-launch {
+    background-color: skyblue;
+}
+
+article.boxes div.box-download {
+    background-color: orange;
+}
+
+/* MOBILE FORMAT */
+
+@media screen and (max-width: 767px) {
+    .top-bar {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,236 @@
+    /* generals styles */
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(24, 24, 24);
+        color: rgb(219, 220, 221);
+    }
+
+    .flexContainers {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+    /*------------- topbar --------------*/
+
+    #top,
+    .contact {
+        background-color: rgb(177, 177, 177);
+    }
+
+    #top,
+    .contact,
+    h3 a.flexboxItems {
+        color: rgb(53, 52, 52);
+    }
+
+    h3 {
+        margin: 2vh 2vw;
+    }
+
+    h3 a.flexboxItems {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    h3 a.flexboxItems:hover {
+        text-shadow: 0 0 3px white;
+    }
+
+    /*-------------------- about me ----------------*/
+
+    #photoProfile {
+        margin-top: 4vh;
+        border-radius: 50%;
+        height: 18vh;
+        width: 30vw;
+    }
+
+    .centerObjects {
+        padding: 3vh;
+        text-align: center;
+    }
+
+    #photoAboutMe {
+        height: 50vh;
+    }
+
+    .container {
+        background-color: rgb(44, 43, 43);
+        padding-bottom: 2em;
+    }
+
+    .widthContainer p.whoIam {
+        text-align: justify;
+    }
+
+    /* --------projects-------- */
+
+    #projects {
+        padding: 1em;
+        margin: 5%;
+        width: 90%;
+        height: auto;
+        text-align: center;
+    }
+
+    .projects,
+    .contactForm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: wrap;
+        font-weight: bold;
+    }
+
+    #projects .text {
+        color: black;
+    }
+
+    .card {
+        width: 30em;
+        height: 30em;
+        background: rgb(255, 255, 255);
+        position: relative;
+        border-radius: 1em;
+        background-size: cover;
+        background-position: center;
+        margin: 4em;
+    }
+
+    .joomla-project {
+        background-image: url("https://www.ionos.it/digitalguide/fileadmin/DigitalGuide/Screenshots_2020/website_mit_joomla_erstellen-EN-1.jpg");
+    }
+
+    .film-project {
+        background-image: url("https://www.kaplaninternational.com/it/blog/files/styles/max_1300x1300/public/2017-08/movie.jpg?itok=dlZFIndb");
+    }
+
+    .text {
+        position: absolute;
+        height: 3.3em;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        z-index: 2;
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        transition: 0.2s;
+    }
+
+    .text:hover {
+        height: 10em;
+        transition: 0.3s;
+    }
+
+    .content {
+        color: rgb(0, 0, 0);
+    }
+
+    .view-button {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border-radius: 1em;
+        width: 5em;
+        padding: 0.5em 1em;
+        text-decoration: none;
+    }
+
+    /* --------------------footer--------------------- */
+    .contact {
+        width: 100%;
+    }
+
+    .contactForm p {
+        margin-bottom: 3em;
+    }
+
+    .contactForm label {
+        display: block;
+        margin-top: 2em;
+    }
+
+    .contactForm input,
+    .message button, .message textarea {
+        padding: 1em;
+        margin: 0.5em;
+        border-radius: 0.3em;
+        border: none;
+    }
+
+    .message button {
+        display: flex;
+    }
+
+    .contactForm {
+        padding-bottom: 5em;
+    }
+
+    .message textarea {
+        column-gap: 90;
+        border-radius: 1em;
+    }
+
+    .copyright {
+        display: flex;
+    }
+    .copyright p > a {
+        margin-left: 0.5em;
+        color: rgb(255, 255, 255);
+    }
+
+    .copyright p > a:hover {
+        color: aqua;
+    }
+    /* ---------------------MOBILE FIRST----------------------- */
+    @media (min-width: 650px) {
+
+        /* TOPBAR */
+        h3 {
+            margin: 3vh 2vw;
+        }
+
+        /* about me */
+
+        #photoProfile {
+            height: 43vh;
+            width: 25vw;
+        }
+
+        .whoIam {
+            font-size: 22px;
+        }
+
+        .widthContainer {
+            width: 30%;
+            margin: 0 1em;
+        }
+
+        .prova2 {
+            height: 43vh;
+            width: 25vw;
+        }
+
+        .text {
+            height: 5em;
+        }
+
+        /* footer */
+
+        .contactDetail {
+            width: 30%;
+        }
+
+        .message {
+            width: 50%;
+
+        }
+
+        .message textarea{
+            width: 100%;
+
+        }
+
+    }

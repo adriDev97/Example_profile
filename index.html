@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="flexContainers" id="top">
+            <h3><a href="#aboutMe" class="flexboxItems">ABOUT ME</a></h3>
+            <h3><a href="#projects" class="flexboxItems">PROJECTS</a></h3>
+            <h3><a href="#contactMe" class="flexboxItems">CONTACT ME</a></h3>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="flexContainers">
+                <img id="photoProfile" class="circleImg" src="img/profile.png" alt="photoProfile">
+            </div>
+            <div>
+                <p class="centerObjects whoIam">Hi! I'm Adriana Marquez, I'm a Full Stack Web Developer</p>
+            </div>
+        </div>
+        <div class="container">
+            <h2 id="aboutMe" class="centerObjects">About me</h3>
+                <div class="flexContainers">
+                    <img id="photoAboutMe" src="https://t3.ftcdn.net/jpg/03/58/90/78/360_F_358907879_Vdu96gF4XVhjCZxN2kCG0THTsSQi8IhT.jpg" alt="photoAboutMe">
+                    <div class="widthContainer">
+                        <p class="whoIam">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                            Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+        </div>
+        <section id="projects">
+            <div class="project">
+                <h2>Projects</h2>
+                <div class="projects">
+                    <div class="film-project card">
+                        <div class="text">
+                            <h3 class="proj-title">Film Project</h3>
+                            <div class="content">
+                                <p>This project is a movies web site using HTML & CSS.</p>
+                            </div>
+                            <a class="view-button" href="film/index.html" target="_blank">view</a>
+                        </div>
+                    </div>
+                    <div class="joomla-project card">
+                        <div class="text">
+                            <h3 class="proj-title">Jommla!</h3>
+                            <div class="content">
+                                <p>This project is a clone of <a href="https://www.joomla.org/">www.joomla.org</a>  website</p>
+                            </div>
+                            <a class="view-button" href="joomla/joomla.html" target="_blank">view</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contactme" class="contact">
+        <h2 class="centerObjects">Contact</h2>
+        <form class="contactForm">
+            <div class="contactDetail">
+                <p>Use this form to get in touch</p>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Reason for your message">
+                <label for="e-mail">E-mail Address</label>
+                <input type="email" id="e-mail" placeholder="Your E-mail Address">
+            </div>
+            <div class="message">
+                <label for="msg">Message</label>
+                <textarea id="msg" cols="30" rows="10"></textarea>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div class="copyright">
+            <p>This site &copy; 2023 Adriana Marquez</p>
+            <p><a href="#"><i class="fa fa-twitter"></i></a></p>
+            <p><a href="#"><i class="fa fa-facebook-f"></i></a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

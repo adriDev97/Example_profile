@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+.card {
+    border: 0ch;
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+}
+
+.card-title {
+    text-align-last: center;
+}
+
+.card-text {
+    font-style: italic;
+}
+
+li.nav-item {
+    padding: 0.4em 1em;
+}
+
+#bt-login {
+    margin-left: 0.5em;
+}
